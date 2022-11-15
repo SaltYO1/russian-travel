@@ -1,0 +1,19 @@
+.footer__list {
+  margin-bottom: 32px;
+}
+
+.footer__list:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .footer__list {
+    margin-bottom: 0;
+    display: inline;
+    margin-right: 18px;
+  }
+
+  .footer__list:last-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,12 @@
+.header__lang-link {
+  text-decoration: none;
+  color: white;
+  transition: opacity .3 easy;
+}
+
+@media (min-width: 1024px) {
+  .header__lang-link:hover {
+    opacity: .8;
+  }
+}
+

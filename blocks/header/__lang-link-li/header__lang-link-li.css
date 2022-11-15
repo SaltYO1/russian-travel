@@ -1,0 +1,21 @@
+.header__lang-link-li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0;
+  padding-right: 14px;
+  display: inline-block;
+  flex-wrap: nowrap;
+}
+
+@media (min-width: 768px) {
+  .header__lang-link-li {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.header__lang-link-li:last-child {
+  padding: 0;
+}

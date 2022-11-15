@@ -1,0 +1,10 @@
+.places__paragraphs {
+  padding: 0 16px;
+  grid-area: paragraphs;
+}
+
+@media (min-width: 768px) {
+  .places__paragraphs {
+    padding: 0;
+  }
+}

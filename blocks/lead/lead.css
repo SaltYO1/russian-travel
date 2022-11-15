@@ -1,0 +1,11 @@
+.lead {
+  padding-top: 48px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1280px) {
+  .lead {
+    padding-top: 56px;
+  }
+}
