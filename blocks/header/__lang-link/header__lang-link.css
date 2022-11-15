@@ -4,9 +4,6 @@
   transition: opacity .3 easy;
 }
 
-@media (min-width: 1024px) {
-  .header__lang-link:hover {
-    opacity: .8;
-  }
+.header__lang-link:hover {
+  opacity: .8;
 }
-

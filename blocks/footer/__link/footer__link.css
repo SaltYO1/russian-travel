@@ -8,15 +8,13 @@
   transition: opacity .3 easy;
 }
 
+.footer__link:hover {
+  opacity: .8;
+}
+
 @media (min-width: 768px) {
   .footer__link {
     font-size: 16px;
     line-height: 18px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .footer__link:hover {
-    opacity: .8;
   }
 }
